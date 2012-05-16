@@ -1,5 +1,5 @@
 *{
-	outline: none;
+	outline: 1px solid #DA901F;
 }
 
 body{
@@ -9,24 +9,25 @@ body{
 	font-size: 14px;
 	color: #;
 	line-height: 150%;
-	text-align: center; /*STEP 2 OF CENTERING CONTAINER*/
+	text-align: left;
 }
 
-#container{
-	width: 940px;
-	margin: 0 auto; /*STEP 1 OF CENTERING CONTAINER. first num top, second is auto sides*/
-	text-align: left; /*STEP 3 OF CENTERING CONTAINER*/
-	background-color: #fff;
+/*-----------------  header  ------------------*/
+
+#header-wrap{
+	background-color: #5a2a15;
 }
 
 #header{
-	height: 170px;
+	padding-top: 20px;
+	height: 150px;
 	background-color: #5a2a15; /*dk brown*/
 	text-decoration: none;
+	display: block;
 }
 
 #logo{
-	float: right;
+	
 }
 
 #header_contact{
@@ -42,6 +43,14 @@ body{
 #nav a:hover{color: #DA901F;} /*yellow*/
 #nav a:active{color: #DA901F;}
 
-#slideshow{
 
+/*-----------------  slideshow  ------------------*/
+
+#slideshow .container_12{
+	background: #F2E6E1 opacity .7;
+
+}
+
+#slideshow img{
+	width: 100%;
 }
