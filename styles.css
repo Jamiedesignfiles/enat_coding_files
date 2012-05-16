@@ -1,0 +1,47 @@
+*{
+	outline: none;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family:;
+	font-size: 14px;
+	color: #;
+	line-height: 150%;
+	text-align: center; /*STEP 2 OF CENTERING CONTAINER*/
+}
+
+#container{
+	width: 940px;
+	margin: 0 auto; /*STEP 1 OF CENTERING CONTAINER. first num top, second is auto sides*/
+	text-align: left; /*STEP 3 OF CENTERING CONTAINER*/
+	background-color: #fff;
+}
+
+#header{
+	height: 170px;
+	background-color: #5a2a15; /*dk brown*/
+	text-decoration: none;
+}
+
+#logo{
+	float: right;
+}
+
+#header_contact{
+	color: #FFF;
+}
+
+#nav a{
+	text-decoration: none;
+}
+
+#nav a:link{color: #FFF;}
+#nav a:visited{color: #FFF;}
+#nav a:hover{color: #DA901F;}/*yellow*/
+#nav a:active{color: #DA901F;}
+
+#slideshow{
+
+}
