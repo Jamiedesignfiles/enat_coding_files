@@ -39,7 +39,7 @@ body{
 
 #nav a:link{color: #FFF;}
 #nav a:visited{color: #FFF;}
-#nav a:hover{color: #DA901F;}/*yellow*/
+#nav a:hover{color: #DA901F;} /*yellow*/
 #nav a:active{color: #DA901F;}
 
 #slideshow{
