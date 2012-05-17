@@ -3,15 +3,31 @@
 <html>
 
 	<head>
+		
 		<title>Enat Kitchen</title>
-		<link type="text/css" href="styles.css" rel="stylesheet" />
-<<<<<<< HEAD
-		<link type="text/css" href="grid_styles.css" rel="stylesheet" />
-=======
-		<link type="text/css" href="grid.css" rel="stylesheet" />
->>>>>>> new
-		<link type="text/css" href="reset.css" rel="stylesheet" />
-
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<link rel='stylesheet' type='text/css' media='all' href='reset.css' />
+	    <link rel='stylesheet' type='text/css' media='all' href='grid.css' />
+		<link rel='stylesheet' type='text/css' media='all' href='styles.css' />
+		
+		<!--Jquery library-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		  		
+		<!--Cycle Plugin-->
+  		<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+		
+		<script type="text/javascript">
+			
+			$(document).ready(function() {
+   			 $('.slideshow-pictures').cycle({
+				fx: 'fade' 
+			});
+		});
+		</script>
 	</head>
 
 	<body>
@@ -19,99 +35,119 @@
 		
 			<div id="header-wrap">
 				
-<<<<<<< HEAD
-				<div id="nav">
-					<ol>
-						<li><a href="#">press</a></li>
-						<li><a href="#">menu</a></li>
-						<li><a href="#">our story</a></li>
-						<li><a href="#">contact</a></li>
-					</ol>
-				</div><!--nav-->
-=======
 				<div id="header" class="container_12">
 				
->>>>>>> new
-				
-					<div id="header_contact" class="grid_3">
+					<div id="header_contact" class="grid_8">
 						Mon-Sat 11:30AM - 10:00PM<br>
 						(503)285-4867
 					</div><!--end header contact-->
 					
-					
-					<div id="logo" class="push_9">
-						<img src="images/logo.png" alt="Enat Kitchen" />
-		
-					</div><!--logo-->
-					
-					<div id="nav" class="grid_3">
-						<a href="#">Press</a>
-						<a href="#">Menu</a>
-						<a href="#">Our Story</a>
-						<a href="#">Contact</a>
-					
+									
+					<div id="nav" class="grid_6">
+						<ol>
+							<li><a href="#">press</a></li>
+							<li><a href="#">menu</a></li>
+							<li><a href="#">our story</a></li>
+							<li><a href="#">contact</a></li>
+						</ol>
 					</div><!--nav-->
-				
+
+					<div id="logo" class="push_2">
+						<a href="index.html"><img src="images/logo.png" alt="Enat Kitchen" width="200"/></a>
+					</div><!--logo-->
+
 				</div><!--end header-->
 				
+				
+				<div id="nav_selector" class="grid_4">	
+					<div class="circle_selector">
+					</div>
+				</div><!-- end nav_selector -->
+			
 			</div><!--end header wrap-->
 			
-			
-			<div id="slideshow" class="container_12">
-			
-			<img src="images/menu/slideshow_pic_2.png" alt="" />
-			<img src="images/" alt="" />
-			<img src="images/" alt="" />
-			<img src="images/" alt="" />
-			<img src="images/" alt="" />
-			<img src="images/" alt="" />
+			<div id="main-wrap" class="container_12">
 
-			
-			
-				<div id="callOut_bar">
-				</div><!--ENDCALL OUT BAR-->
-			
-			</div><!--END SLIDESHOW-->
-			
-			
-			<div id="content">
-			
-				<div id="sidebar1">
+				<div id="slideshow">
+					
+					<div class="slideshow-pictures" class="container_12">				
+						<img src="images/menu/slideshow_pic_2.png" alt="" />
+						<img src="images/" alt="" width="940" height="550"/>
+						<img src="images/" alt="" width="940" height="550"/>
+						<img src="images/" alt="" width="940" height="550"/>
+						<img src="images/" alt="" width="940" height="550"/>
+						<img src="images/" alt="" width="940" height="550"/>
+					</div><!--END SLIDESHOW-pictures-->
 				
-				</div><!--END SIDEBAR 1 AKA ((FUN FACTS))-->
+					<div id="callout_bar" class="grid_12">
+						<h1>Authentic Ethiopian Cuisine</h1>	
+					</div><!--ENDCALL OUT BAR-->
+	
+				</div><!-- end slideshow-->
 				
-				
-				<div id="sidebar2">
-				
-				</div><!--END SIDEBAR 2 AKA ((PLATTER PICTURE))-->
-				
-				
-				
-			</div><!--END CONTENT-->
+				<div id="main" class="container_12">
+
+					<div id="left_sidebar" class="grid_2 suffix_1">
+						<img src="images/home_page/homepage_meal_cut_out.png" alt="" width="180" />
+					</div><!--END left_SIDEBAR ((PLATTER PICTURE))-->
+					
+					<div id="intro" class="grid_8">
+						<p>Every dish is prepared just for you, made with all <span class="highlight">fresh</span><br>
+						 ingredients and <span class="highlight">spices</span> that come straight from Ethiopia.<br>
+						  How can you go wrong with <span class="highlight">authentic</span>, fresh food, that<br>
+						   comes to you, straight out of Mama’s kitchen?</p>
+					</div><!--END intro-->
+					
+					<div class="add-bottom-margin grid_12"></div>
+					
+					<div id="section-2" class="container_10 suffix_1">
+						<div id="title">
+							<div class="food-icon grid_1"><img src="images/home_page/food_icon.png" width="80px"/></div>
+							<div class="title grid_4"><h3>A TASTE OF ETHIOPIA</h3></div>
+							<div class="line-1 grid_5"></div>
+						</div><!-- end section-2 -->
+
+						<div class="border-taste grid_10">	
+						
+						</div><!-- end of border-taste -->
+						
+					</div>
+					
+				</div><!-- END MAIN -->						
 		
-			<div id="footer">
+			</div><!--END MAIN_WRAPPER-->
+		
+		
+		<div id="footer-wrap">
 			
-				<div id="sub_footer3">
+			<div id="footer" class="container_12">
+				
+				<div id="sub_footer3" class="grid_">
 				</div><!--END SUB FOOTER1 ((phone & address/right))-->
 				
 				
-				<div id="sub_footer3">
+				<div id="sub_footer3" class="grid_">
 				</div><!--END SUB FOOTER 2 ((location & picture/middle))-->
 				
-				<div id="sub_footer1">
+				<div id="sub_footer1" class="grid_">
 				</div><!--END SUB FOOTER 1 ((hours/left))-->
 				
 				
-				<div id="bottom_footer">
+				<div id="bottom_footer" class="grid_12">
 				
-					<div id="bottom_nav">
+					<div id="bottom_nav" class="grid_">
+						<ol>
+							<li><a href="#">press</a></li>
+							<li><a href="#">menu</a></li>
+							<li><a href="#">our story</a></li>
+							<li><a href="#">contact</a></li>
+						</ol>
 					</div><!--END BOTTOM NAV-->
-				
 				</div><!--END BOTTOM FOOTER-->
-			
 			
 			</div><!--END FOOTER-->
 		
+		</div><!-- END FOOTER_WRAP -->
 	
 		
 	</body>
