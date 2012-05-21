@@ -73,11 +73,11 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #header-wrap{background-color: #5a2a15; width:100%;}
 
-#header{padding:40px 0 0 0; height: 150px; text-decoration: none;}
+#header{padding:20px 0 20px 0; height: 150px; text-decoration: none;}
 
 #header_contact{color: #FFF; line-height: 1.5em;letter-spacing: .15em;}
 
-#logo{padding:20px 0 0 0;}
+#logo{margin-top: -10px;}
 
 #nav li{display: inline; padding:0 30px 0 0;font-size: 20px;}
 
