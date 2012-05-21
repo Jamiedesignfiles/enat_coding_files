@@ -12,7 +12,6 @@
 
 .add-bottom-margin {margin-bottom:20px;}
 
-<<<<<<< HEAD
 
 /* Layout ----------------------------------------------------------------- */
 
@@ -24,7 +23,7 @@ body {background-color: #f2e6e1 opacity:.3;height:100%; position:relative;}
 
 body {font-size: 100%; line-height: 1.375 ;}
 
-h1 {font-size: 3em;/*48px*/ line-height: 1em; font-weight:bold-italic; font-family:"Puritan2.0BoldItalic";}
+h1 {font-size: 3em;/*48px*/ line-height: 1em; font-weight:bold-italic; font-family:'Puritan2.0BoldItalic';}
 h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal;}
 h3 {font-size: 1.75em;/*28px*/ font-weight: normal; }
 h4 {font-size: 1.3125;/*18px*/ font-weight: normal;  }
@@ -57,16 +56,6 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #nav{padding:60px 0 0 0; }
 
 #nav a{text-decoration: none;}
-=======
-#nav ol{
- 	display: inline;
-}
-
-#nav a{
-	text-decoration: none;
-	
-}
->>>>>>> new
 
 #nav a:link{color: #FFF;}
 #nav a:visited{color: #FFF;}
@@ -77,8 +66,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 /* index ----------------------------------------------------------------- */
 
-#main_wrapper{height: 1400px;}
-#main_content{height: 1000px;}
+#main_wrapper{width:100%;}
 
 #slideshow-pictures{z-index: 9999;}
 
@@ -90,10 +78,10 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #section-1{height: 200px;}
 #section-2{height: 300px;}
-
 #section-3{height: 300px;}
+
 #sprite{}
-.fact{height: 100px;}
+
 
 /* menu ----------------------------------------------------------------- */
 
@@ -106,25 +94,11 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 /* Footer ----------------------------------------------------------------- */
 
-#footer-wrapper{width:100%;}
-#footer{text-decoration: none; padding: 10px 15px 10px 25px;}
-
-#top-footer{height: 175px; text-decoration: none; background-color: #a26144;padding:15px 0 15px 0;}
-
-#contact_heading{padding-bottom: 5px;}
-#contact_heading li{display: inline;}
+#top-footer-wrapper{background-color: #a26144;width: 100%;height: 150px;}
+#bottom-footer-wrapper{background-color:#5a2a15; width: 100%;height: 50px;}
 
 
-#sub_footer_1{padding: 0 0 0 10px;}
 
-.line_1{width: 50px; border-bottom: solid 1px;border-bottom-color: #5a2a15;}
-.line_2{width: 350px; border-bottom: solid 1px;border-bottom-color: #5a2a15;}
-.information{padding: 15px 0 0 0;}
-
-#bottom_footer{background-color:#5a2a15; height: 50px; color: #fff;}
-#bottom_nav li{display: inline;}
-
-#created-by, #bottom_nav{padding: 15px 0 0 0;}
 
 
 /* index slideshow ----------------------------------------------------------------- */
