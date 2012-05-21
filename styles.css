@@ -42,7 +42,7 @@
 
 /* Layout ----------------------------------------------------------------- */
 
-body {background-color: #f2e6e1 opacity:.3;height:100%; position:relative;}
+body {background-color: #fbf7f6; height:100%; position:relative;}
 
 
 /* Typography ----------------------------------------------------------------- */
@@ -50,12 +50,12 @@ body {background-color: #f2e6e1 opacity:.3;height:100%; position:relative;}
 
 body {font-size: 100%; line-height: 1.375 ; font-family:'QuattrocentoSansRegular'; font-weight: normal;}
 
-h1 {font-size: 3em;/*48px*/ line-height: 1em; font-weight: normal; font-family:;}
-h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal; font-family:'QuattrocentoSansRegular';}
-h3 {font-size: 1.75em;/*28px*/ font-weight: normal; 'Puritan2.0BoldItalic';}
-h4 {font-size: 1.3125;/*18px*/ font-weight: normal; 'Puritan2.0BoldItalic'}
-h5 {font-size: 15px; font-weight: normal; font-family:'QuattrocentoSansRegular';}
-h6 {font-family: ; font-size: 12px;/*48px*/margin-bottom: 11px; font-family:'QuattrocentoSansRegular';}
+h1 {font-size: 3em;/*48px*/ line-height: 1em; font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #FFF;}
+h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #FFF;}
+h3 {font-size: 1.75em;/*28px*/ font-weight: normal; 'Puritan2.0BoldItalic'; color: #DO6538;}
+h4 {font-size: 1.3125;/*18px*/ font-weight: normal; 'Puritan2.0BoldItalic'; color: #DA901F;}
+h5 {font-size: 15px; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
+h6 {font-family: ; font-size: 12px;/*48px*/margin-bottom: 11px; font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
 
 
 p {margin-bottom:.5em; font-size: 20px; font-family:'QuattrocentoSansRegular';}
@@ -98,9 +98,11 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #slideshow-pictures{z-index: 9999;}
 
-.intro_picture {padding: 0 0 0 45px;}
-.intro_text p{font-size: 24px;line-height: 1.6em;letter-spacing: .1em; padding: 0px 0 0 0;}
+.intro_picture {padding: 0 0 10px 45px;}
+.intro_text p{font-size: 24px;line-height: 1.6em;letter-spacing: .1em; padding: 0 0 50px 0;}
 .highlight{color: #da901f;font-style: oblique;font-weight: bold;}
+
+#callout_bar{padding-bottom: 60px;}
 
 .icon{padding: 0 20px 0 0;}
 
@@ -124,7 +126,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #top-footer-wrapper{background-color: #a26144;width: 100%;height: 150px;}
 #bottom-footer-wrapper{background-color:#5a2a15; width: 100%;height: 50px;}
-
+#created-by{color: #FFF;}
 
 
 
