@@ -165,12 +165,10 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 /* menu ----------------------------------------------------------------- */
 .nav_selector img{z-index: 100;float: left;}
-
-<<<<<<< HEAD
 .callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.5); padding: 10px; margin: -260px 0 0 0;}
-=======
+
 .callout_bar{z-index: 50;background-color: #5a2a15; padding: 5px; margin: -250px 0 0 0;}
->>>>>>> bla
+
 
 #menu{height: 2150px;}
 #menu p{line-height: 1.3em;}
@@ -207,6 +205,14 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 /* our story ----------------------------------------------------------------- */
 
 /* contact ----------------------------------------------------------------- */
+
+#right_sidebar_contact{
+	float: right;
+	width: 400px;
+}
+
+
+
 
 
 /* Footer ----------------------------------------------------------------- */
