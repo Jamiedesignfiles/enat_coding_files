@@ -84,11 +84,12 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #footer p{font-size: 18px;font-family:'QuattrocentoSansRegular';color:#5a2a15;}
 .location_text{font-size: 16px;line-height: 1.6em;}
 
-.red-text{font-size: 18px;font-family:'Puritan2.0BoldItalic';color:#d06538;letter-spacing:.12em;}
-.yellow-text{font-size: 18px;font-family:'Puritan2.0BoldItalic';color:#da901f; letter-spacing:.12em;}
-.brown-text{font-size: 18px;font-family:'Puritan2.0BoldItalic';color:#5A2A15; letter-spacing:.12em; }
+.red-text{font-size: 16px;font-family:'Puritan2.0Bold';color:#d06538;font-weight: normal;}
+.yellow-text{font-size: 16px;font-family: 'Puritan2.0Bold';color:#da901f;font-weight: normal;}
+.brown-text{font-size: 16px;font-family: 'Puritan2.0Bold';color:#5A2A15;font-weight: normal;}
 .red{color:#d06538;}
 .brown{color:#5A2A15;}
+.section_title{font-size: 22px;letter-spacing: 1px;}
 /* Header ----------------------------------------------------------------- */
 
 #header-wrap{background-color: #5a2a15; width:100%;}
