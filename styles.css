@@ -68,7 +68,7 @@ h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal; font-fa
 h3 {font-size: 1.75em;/*28px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #5a2a15;letter-spacing: 1.5px;}
 h4 {font-size: 1.3125;/*18px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #DA901F;}
 h5 {font-size: 15px; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
-h6 {font-family: ; font-size: 12px;/*48px*/font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
+h6 {font-weight: normal; font-size: 12px;font-family:'Puritan2.0Bold'; color: #5A2A15;}
 
 
 p {margin-bottom:.5em; font-size: 18px; font-family:'QuattrocentoSansRegular';color:#5a2a15;}
