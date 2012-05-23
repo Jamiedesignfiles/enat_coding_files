@@ -89,7 +89,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .brown-text{font-size: 16px;font-family: 'Puritan2.0Bold';color:#5A2A15;font-weight: normal;}
 .red{color:#d06538;}
 .brown{color:#5A2A15;}
-.section_title{font-size: 22px;letter-spacing: 1px;}
+.section_title{font-size: 22px;letter-spacing: 1px;display: block;border-bottom: solid 2px;}
 /* Header ----------------------------------------------------------------- */
 
 #header-wrap{background-color: #5a2a15; width:100%;}
@@ -164,16 +164,20 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 
 /* menu ----------------------------------------------------------------- */
-#nav_selector{margin:-30px 0 0 90px;z-index: 50;}
+.nav_selector img{z-index: 100;float: left;}
 
+<<<<<<< HEAD
 .callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.5); padding: 10px; margin: -260px 0 0 0;}
+=======
+.callout_bar{z-index: 50;background-color: #5a2a15; padding: 5px; margin: -250px 0 0 0;}
+>>>>>>> bla
 
 #menu{height: 2150px;}
 #menu p{line-height: 1.3em;}
 #menu h4{padding: 0 0 0 0;}
 
-#slideshow{height: 350px;padding: 0 0 50px 0;z-index: 1;}
-.slidshow-pictures{z-index: -100;}
+
+.slideshow-pictures{height: 350px;padding: 0 0 50px 0;z-index: -100;}
 
 #about_food{height:300px; padding: 0 0 20px 0;}
 #about_food h3{padding: 0 0 5px 0;border-bottom: 1px solid #5a2a15;}
@@ -181,7 +185,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .about_text p{padding: 10px 0 10px 0;line-height: 1.5em;font-size: 20px;}
 .about_text{padding: 0 40px 10px 0;}
 
-.food_terms{background-color: #da901f;padding: 0 15px 10px 20px;}
+.food_terms{background-color: #f6e0be;padding: 0 15px 10px 20px;}
 .food_terms_text p{font-size: 16px;padding: 10px 0 0 0;}
 
 #favorites{height: 200px;padding: 50px 0 50px 0;}
