@@ -164,12 +164,19 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 
 /* menu ----------------------------------------------------------------- */
+<<<<<<< HEAD
 .nav_selector img{z-index: 100;float: left;}
 .callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.5); padding: 10px; margin: -260px 0 0 0;}
 
 .callout_bar{z-index: 50;background-color: #5a2a15; padding: 5px; margin: -250px 0 0 0;}
 
+=======
+.nav_selector{z-index: 100; margin: 0 0 0 200;}
+>>>>>>> afterclass
 
+.callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.75); margin: -150px 0 0 0;}
+.callout_bar img{margin: -35 0 0 0;}
+.callout_bar h1{padding: 0 0 0 175;letter-spacing: 2px;}
 #menu{height: 2150px;}
 #menu p{line-height: 1.3em;}
 #menu h4{padding: 0 0 0 0;}
@@ -178,7 +185,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .slideshow-pictures{height: 350px;padding: 0 0 50px 0;z-index: -100;}
 
 #about_food{height:300px; padding: 0 0 20px 0;}
-#about_food h3{padding: 0 0 5px 0;border-bottom: 1px solid #5a2a15;}
+#about_food h3{padding: 0 0 5px 0;border-bottom: 2px solid;display: block;}
 
 .about_text p{padding: 10px 0 10px 0;line-height: 1.5em;font-size: 20px;}
 .about_text{padding: 0 40px 10px 0;}
@@ -186,8 +193,8 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .food_terms{background-color: #f6e0be;padding: 0 15px 10px 20px;}
 .food_terms_text p{font-size: 16px;padding: 10px 0 0 0;}
 
-#favorites{height: 200px;padding: 50px 0 50px 0;}
-.favorites_pictures{padding: 0 0 15px 0;}
+#favorites{height: 250px;padding: 50px 0 150px 0;}
+.favorites_pictures{padding: 0 0 30px 0;}
 .favorites_names li{display: inline;}
 .favorite_name1{padding: 0 0 0 30px;}
 .favorite_name2{padding: 0 0 0 60px;}
@@ -195,6 +202,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .favorite_name4{padding: 0 0 0 60px;}
 .favorite_name5{padding: 0 0 0 70px;}
 .favorite_name6{padding: 0 0 0 90px;}
+
 
 #food_menu li{padding: 0 0 10px 0;}
 #food_menu p{font-size: 16px;}
