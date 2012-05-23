@@ -13,6 +13,8 @@
 
 }
 
+
+
 @font-face {
     font-family: 'Puritan2.0BoldItalic';
     src: url('fonts/puritan_bold_italic-webfont.eot');
@@ -25,6 +27,16 @@
 
 }
 
+@font-face {
+    font-family: 'Puritan2.0Bold';
+    src: url('puritan_bold-webfont.eot');
+    src: url('puritan_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('puritan_bold-webfont.woff') format('woff'),
+         url('puritan_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Misc */
 
@@ -52,13 +64,13 @@ body {font-size: 100%; line-height: 1.375 ; font-family:'QuattrocentoSansRegular
 
 h1 {font-size: 3em;/*48px*/ line-height: 1em; font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #FFF;}
 h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #FFF;}
-h3 {font-size: 1.75em;/*28px*/ font-weight: normal; 'Puritan2.0BoldItalic'; color: #DO6538;}
-h4 {font-size: 1.3125;/*18px*/ font-weight: normal; 'Puritan2.0BoldItalic'; color: #DA901F;}
+h3 {font-size: 1.75em;/*28px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #5a2a15;letter-spacing: 1.5px;}
+h4 {font-size: 1.3125;/*18px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #DA901F;}
 h5 {font-size: 15px; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
-h6 {font-family: ; font-size: 12px;/*48px*/margin-bottom: 11px; font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
+h6 {font-family: ; font-size: 12px;/*48px*/font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
 
 
-p {margin-bottom:.5em; font-size: 20px; font-family:'QuattrocentoSansRegular';}
+p {margin-bottom:.5em; font-size: 18px; font-family:'QuattrocentoSansRegular';color:#5a2a15;}
 
 ul,
 ol {margin-bottom: 0px;}
@@ -66,16 +78,23 @@ li {margin-left: 0px;}
 a {text-decoration: none; color: #888888;}
 a:hover {color: #FF4F2C; text-decoration: none;}
 
-.caps {text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;}
+.caps{text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;margin-bottom: 5px;}
 
+#footer p{font-size: 18px;font-family:'QuattrocentoSansRegular';color:#5a2a15;}
+.location_text{font-size: 16px;line-height: 1.6em;}
 
+.red-text{font-size: 18px;font-family:'Puritan2.0BoldItalic';color:#d06538;letter-spacing:.12em;}
+.yellow-text{font-size: 18px;font-family:'Puritan2.0BoldItalic';color:#da901f; letter-spacing:.12em;}
+.brown-text{font-size: 18px;font-family:'Puritan2.0BoldItalic';color:#5A2A15; letter-spacing:.12em; }
+.red{color:#d06538;}
+.brown{color:#5A2A15;}
 /* Header ----------------------------------------------------------------- */
 
 #header-wrap{background-color: #5a2a15; width:100%;}
 
 #header{padding:20px 0 20px 0; height: 150px; text-decoration: none;}
 
-#header_contact{color: #FFF; line-height: 1.5em;letter-spacing: .15em;}
+#header_contact h6{color: #FFF; line-height: 2em;letter-spacing: .15em;}
 
 #logo{margin-top: -10px;}
 
@@ -85,10 +104,10 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #nav a{text-decoration: none;}
 
-#nav a:link{color: #FFF;}
-#nav a:visited{color: #FFF;}
-#nav a:hover{color: #DA901F;} /*yellow*/
-#nav a:active{color: #DA901F;}
+#nav a:link{color: #FFF;opacity: .9;}
+#nav a:visited{color: #FFF;opacity: .9;}
+#nav a:hover{color: #fff;opacity: 1;} /*bolder/brighter*/
+#nav a:active{color: #fff; opacity: 1;}
 
 
 
@@ -105,16 +124,49 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #callout_bar{padding-bottom: 60px;}
 
 .icon{padding: 0 20px 0 0;}
-
-#section-1{height: 200px;}
-#section-2{height: 300px;}
-#section-3{height: 300px;}
+.stop_in{line-height:4em;font-family:'Puritan2.0BoldItalic';letter-spacing:1px;}
+#section-1{height: 350px;}
+#section-2{height: 350px;}
+#section-3{height: 350px;}
 
 #sprite{}
 
 
 /* menu ----------------------------------------------------------------- */
+#nav_selector{margin:-30px 0 0 90px;z-index: 50;}
 
+.callout_bar{z-index: 100;background-color: #5a2a15;margin: 250px 0 0 0;}
+
+#menu{height: 2150px;}
+#menu p{line-height: 1.3em;}
+#menu h4{padding: 0 0 0 0;}
+
+#slideshow{height: 350px;padding: 0 0 50px 0;z-index: 1;}
+.slidshow-pictures{z-index: 1;}
+
+#about_food{height:300px; padding: 0 0 20px 0;}
+#about_food h3{padding: 0 0 5px 0;border-bottom: 1px solid #5a2a15;}
+
+.about_text p{padding: 10px 0 10px 0;line-height: 1.5em;font-size: 20px;}
+.about_text{padding: 0 40px 10px 0;}
+
+.food_terms{background-color: #da901f;padding: 0 15px 10px 20px;}
+.food_terms_text p{font-size: 16px;padding: 10px 0 0 0;}
+
+#favorites{height: 200px;padding: 50px 0 50px 0;}
+.favorites_pictures{padding: 0 0 15px 0;}
+.favorites_names li{display: inline;}
+.favorite_name1{padding: 0 0 0 30px;}
+.favorite_name2{padding: 0 0 0 60px;}
+.favorite_name3{padding: 0 0 0 50px;}
+.favorite_name4{padding: 0 0 0 60px;}
+.favorite_name5{padding: 0 0 0 70px;}
+.favorite_name6{padding: 0 0 0 90px;}
+
+#food_menu li{padding: 0 0 10px 0;}
+#food_menu p{font-size: 16px;}
+
+.image{height: 200px;padding-top: 65px;}
 /* press ----------------------------------------------------------------- */
 
 /* our story ----------------------------------------------------------------- */
@@ -123,11 +175,24 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 
 /* Footer ----------------------------------------------------------------- */
+#top-footer-wrapper{background:#a26144 .3;width: 100%;height: 200px;}
+#footer{padding: 15px 0 0 0;}
 
-#top-footer-wrapper{background-color: #a26144;width: 100%;height: 150px;}
+#sub_footer_1, 
+#sub_footer_2,
+#sub_footer_3{border-top: #5a2a15 1.5px solid; padding: 7px 0 0 0;}
+
+.line{border-right: #fff 1px solid;}
+.location{padding: 0 0 0 10px;}
+
 #bottom-footer-wrapper{background-color:#5a2a15; width: 100%;height: 50px;}
-#created-by{color: #FFF;}
+#created-by h6{color: #FFF;}
+#bottom_nav li{display: inline; padding: 0 10px 0 10px; font-size: 16px;}
 
+#bottom_nav a:link{color: #FFF;opacity:.9;}
+#bottom_nav a:visited{color: #FFF;opacity:.9}
+#bottom_nav a:hover{color: #FFF; opacity:1;} /*more opaque*/
+#bottom_nav a:active{color: #DA901F;opacity:1;}
 
 
 
