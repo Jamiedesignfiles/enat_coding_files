@@ -131,28 +131,36 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #section-2{height: 350px;}
 #section-3{height: 350px;}
 
-#sprite{}
 
 .text_box_1{padding-right: 30px;}
 
-#sprite{margin: 100px 0 0 15px; display: block; height: 114px; width: 170px; position: absolute; text-align: left; background: transparent url('images/home_page/facts_sprite.png') no-repeat 0 0;}
+#sprite{margin-top: 160px;}
 
-#sprite .fact1:hover{background-position: 0px -170px;}
+#sprite a{
+	margin-right: 5px;
+	display: block;
+	height: 125px; 
+	width: 175px;
+	position: absolute;
+	background: transparent url('images/factsprite.png') no-repeat 0 0;
+}
+
+#sprite a.fact1:hover{background-position: 0px -175px;}
 
 
-#sprite .fact2{background-position: -170px 0px;}
+#sprite a.fact2{background-position: -175px 0px;}
 
-#sprite .fact2:hover{background-position: -170px -114px;}
-
-
-#sprite .fact3{background-position: -340px 0px;}
-
-#sprite .fact3:hover{background-position: -340px -114px;}
+#sprite a.fact2:hover{background-position: -175px -125px;}
 
 
-#sprite .fact4{background-position: -510px 0px;}
+#sprite a.fact3{background-position: -350px 0px;}
 
-#sprite .fact4:hover{background-position: -510px -114px;}
+#sprite a.fact3:hover{background-position: -350px -125px;}
+
+
+#sprite a.fact4{background-position: -525px 0px;}
+
+#sprite a.fact4:hover{background-position: -525px -125px;}
 
 
 /* menu ----------------------------------------------------------------- */
