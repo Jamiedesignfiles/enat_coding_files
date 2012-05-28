@@ -163,24 +163,24 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 /* menu ----------------------------------------------------------------- */
 .nav_selector img{z-index: 100;float: left;}
-.callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.5); padding: 10px; margin: -260px 0 0 0;}
+.callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.4);margin: -260px 0 0 0;height:50px;}
 
-.callout_bar{z-index: 50;background-color: #5a2a15; padding: 5px; margin: -250px 0 0 0;}
+.callout_bar{z-index: 50;background-color: #5a2a15; margin: -250px 0 0 0;}
 
 .nav_selector{z-index: 100; margin: 0 0 0 200;}
 
 .callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.75); margin: -150px 0 0 0;}
-.callout_bar img{margin: -35 0 0 0;}
-.callout_bar h1{padding: 0 0 0 175;letter-spacing: 2px;}
+.callout_bar img{margin: -40 0 0 0;}
+.callout_bar h1{padding: 0 0 5 175;letter-spacing: 2px;}
 #menu{height: 2150px;}
 #menu p{line-height: 1.3em;}
 #menu h4{padding: 0 0 0 0;}
 
-
+#slideshow{height: 425px;}
 .slideshow-pictures{height: 350px;padding: 0 0 50px 0;z-index: -100;}
 
 #about_food{height:300px; padding: 0 0 20px 0;}
-#about_food h3{padding: 0 0 5px 0;border-bottom: 2px solid;display: block;}
+#about_food h3{padding: 0 0 5px 0;border-bottom: 2px dotted;display: block;}
 
 .about_text p{padding: 10px 0 10px 0;line-height: 1.5em;font-size: 20px;}
 .about_text{padding: 0 40px 10px 0;}
@@ -188,25 +188,25 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .food_terms{background-color: #f6e0be;padding: 0 15px 10px 20px;}
 .food_terms_text p{font-size: 16px;padding: 10px 0 0 0;}
 
-#favorites{height: 250px;padding: 50px 0 150px 0;}
-.favorites_pictures{padding: 0 0 30px 0;}
+#favorites{height: 250px;padding: 50 0 150 0;}
+.favorites_header h4{color:#d06538; font-weight: normal;font-size: 24px;display: block;border-bottom:dotted 2px;}
+.favorites_pictures, .favorites_names{padding: 30 0 0 60;}
+
 .favorites_names li{display: inline;}
 .favorite_name1{padding: 0 0 0 30px;}
-.favorite_name2{padding: 0 0 0 60px;}
-.favorite_name3{padding: 0 0 0 50px;}
+.favorite_name2{padding: 0 0 0 65px;}
+.favorite_name3{padding: 0 0 0 55px;}
 .favorite_name4{padding: 0 0 0 60px;}
-.favorite_name5{padding: 0 0 0 70px;}
+.favorite_name5{padding: 0 0 0 80px;}
 .favorite_name6{padding: 0 0 0 90px;}
 
-
 #food_menu li{padding: 0 0 10px 0;}
-#food_menu p{font-size: 16px;}
-
+#food_menu p, #drink_menu p{font-size: 16px;color: #5a2a15;}
 .image{height: 200px;padding-top: 65px;}
 
 /* press ----------------------------------------------------------------- */
 
-#press-main{height: 1350px; text-align: center;}
+#press-main{height: 1400px; text-align: center;padding: 30 0 0 0;}
 .pattern{text-align: left;}
 
 #date-logo{background-color: #d06538;text-align: center;width: 180px;float: left;}
@@ -219,7 +219,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #articles{background-color: #f2e6e1;font-size: 16px;font-family:'QuattrocentoSansRegular';font-weight: normal;text-align: left;width: 560px;float: left;}
 #articles p{padding: 0 15 0 15;}
 
-.intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding: 40 0 0 0;}
+.intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding: 60 0 0 0;}
 .yelp-1,.yelp-2{height: 250px;}
 .willamette{height:200px;}
 .urban-spoon-1{height: 100px;}
@@ -247,9 +247,9 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #sub_footer_2 p{font-size: 16px;}
 #sub_footer_2 a{float: left;}
-.location_text{float: left; width: 210;padding: 0 0 0 20;}
+.location_text{float: left; width: 210;padding: 0 0 0 20;font-size: 20px;}
 
-.footer-text{float: left;}
+.footer-text{float: left; font-size: 16px;}
 .line{border-right: #fff 1px solid;}
 .location{padding: 0 0 0 10px;}
 
