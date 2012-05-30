@@ -41,6 +41,8 @@
 
 /* Misc */
 
+a:hover{cursor: pointer;}
+
 .floatnone {float: none;}
 .float-left {float:left;}
 
@@ -95,11 +97,11 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #header-wrapper{background-color: #5a2a15; width:100%;}
 
-#header{padding:20px 0 20px 0; height: 150px; text-decoration: none;}
+#header{padding:20px 0 10px 0; height: 150px; text-decoration: none; font-weight: normal;}
 
-#header_contact h6{color: #FFF; line-height: 2em;letter-spacing: .1em;font-weight: normal;}
+#header_contact h6{color: #FFF; line-height: 1.5em;letter-spacing: .1em;font-weight: normal;}
 
-#logo{margin-top: -10px;}
+#logo{margin-top: -15px;}
 
 #nav li{display: inline; padding:0 30px 0 0;font-size: 20px;}
 
@@ -120,25 +122,26 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #slideshow-pictures{z-index: -9999;}
 
-.intro_picture {padding: 0 0 10px 45px;}
-.intro_text p{font-size: 24px;line-height: 1.6em;letter-spacing: .1em; padding: 0 0 50px 0;}
-.highlight{color: #da901f;font-style: oblique;font-weight: bold;}
+.intro_picture {}
+.intro_text p{font-size: 24px;line-height: 1.5em;letter-spacing: 0em; padding: 30px 0 50px 0;}
+.highlight{color: #da901f;font-weight: normal;font-family:'Puritan2.0BoldItalic';}
 
 .callout_bar{margin-bottom: 100px; background: #5a2a15; padding: 5px; z-index: 100; margin-top: -120px; width: 100%;}
 
 .icon{padding: 0 20px 0 0;}
 .stop_in{line-height:4em;font-family:'Puritan2.0BoldItalic';letter-spacing:1px;}
-#section-1{height: 350px;}
-#section-2{height: 350px;}
-#section-3{height: 350px;}
+#section-1{height: 250px; border-bottom: 2px dotted #DA901F;}
+#section-2{height: 300px; padding: 60px 0 20px 0; border-bottom: 2px dotted #DA901F;}
+#section-3{height: 300px; padding-top: 60px;}
 
-
+.title{margin-bottom: 10px;}
+.title h3{margin-left: -10px;}
 .text_box_1{padding-right: 30px;}
-
-#sprite{margin-left: 105px;}
+#fun_facts_heading .icon{margin-left: 20px;}
+#fun_facts_heading h3{margin-left: -20px;}
 
 #sprite a{
-	margin: 40px 20px 0 0;
+	margin: 40px 40px 0 0;
 	display: block;
 	height: 125px; 
 	width: 175px;
@@ -270,7 +273,10 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #bottom_nav a:hover{color: #FFF; opacity:1;} /*more opaque*/
 #bottom_nav a:active{color: #DA901F;opacity:1;}
 
-
+#created-by a:link{color: #FFF;opacity:.9;}
+#created-by a:visited{color: #FFF;opacity:.9}
+#created-by a:hover{color: #FFF; opacity:1;} /*more opaque*/
+#created-by a:active{color: #DA901F;opacity:1;}
 
 /* index slideshow ----------------------------------------------------------------- */
 #slideshow .container_12{background-position: 0 0px; background-color: #F2E6E1 opacity .7; z-index: -1;}
