@@ -124,7 +124,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .intro_text p{font-size: 24px;line-height: 1.6em;letter-spacing: .1em; padding: 0 0 50px 0;}
 .highlight{color: #da901f;font-style: oblique;font-weight: bold;}
 
-#callout_bar{margin-bottom: 100px; background: #5a2a15; padding: 5px; z-index: 100; margin-top: -120px;}
+.callout_bar{margin-bottom: 100px; background: #5a2a15; padding: 5px; z-index: 100; margin-top: -120px; width: 100%;}
 
 .icon{padding: 0 20px 0 0;}
 .stop_in{line-height:4em;font-family:'Puritan2.0BoldItalic';letter-spacing:1px;}
@@ -232,7 +232,6 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .blerb2{padding:35px 50px 25px 35px; margin-bottom: 50px; background-color:#f6e0be; }
 .blerb2 p{font-size: 28px; font-weight: normal; font-family:'Puritan2.0BoldItalic';letter-spacing: 1px;}
 #left_sidebar{margin-top: -475px;}
-
 
 
 /* contact ----------------------------------------------------------------- */
