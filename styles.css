@@ -234,8 +234,8 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #right_sidebar_contact h4{text-transform: uppercase;}
 #right_sidebar_contact p{font-size:16px;}
 
-#contact_picture{padding: 100px 0 0 80px;}
-
+.contact_picture{padding: 40px 0 30px 80px;}
+.contact_title{padding: 30px 0 0 80px;}
 
 /* Footer ----------------------------------------------------------------- */
 #top-footer-wrapper{background-color:#debfb1; width: 100%;height: 230px;}
