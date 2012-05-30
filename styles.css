@@ -170,8 +170,8 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .nav_selector{z-index: 100; margin: 0 0 0 200;}
 
 .callout_bar{z-index: 100; background: rgba(114, 68, 48, 0.75); margin: -150px 0 0 0;}
-.callout_bar img{margin: -40 0 0 0;}
-.callout_bar h1{padding: 0 0 5 175;letter-spacing: 2px;}
+.callout_bar img{margin: -40px 0 0 0;}
+.callout_bar h1{padding: 0 0 5px 175px;letter-spacing: 2px;}
 #menu{height: 2150px;}
 #menu p{line-height: 1.3em;}
 #menu h4{padding: 0 0 0 0;}
@@ -226,6 +226,15 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .urban-spoon-2{height: 150px;}
 
 /* our story ----------------------------------------------------------------- */
+#right_sidebar_our-story{padding: 20px 0 10px 0;}
+.callout_bar{}
+
+
+
+
+
+
+
 
 /* contact ----------------------------------------------------------------- */
 
