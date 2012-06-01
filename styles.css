@@ -122,14 +122,13 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #slideshow-pictures{z-index: -9999;}
 
-.intro_picture {}
 .intro_text p{font-size: 24px;line-height: 1.5em;letter-spacing: 0em; padding: 30px 0 50px 0;}
 .highlight{color: #da901f;font-weight: normal;font-family:'Puritan2.0BoldItalic';}
 
 .callout_bar{margin-bottom: 100px; background: #5a2a15; padding: 5px; z-index: 100; margin-top: -120px; width: 100%;}
 
 .icon{padding: 0 20px 0 0;}
-.stop_in{line-height:4em;font-family:'Puritan2.0BoldItalic';letter-spacing:1px;}
+.stop_in{line-height:4em;font-weight: normal; font-family:'Puritan2.0BoldItalic';letter-spacing:1px;}
 #section-1{height: 250px; border-bottom: 2px dotted #DA901F;}
 #section-2{height: 300px; padding: 60px 0 20px 0; border-bottom: 2px dotted #DA901F;}
 #section-3{height: 300px; padding-top: 60px;}
@@ -140,14 +139,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #fun_facts_heading .icon{margin-left: 20px;}
 #fun_facts_heading h3{margin-left: -20px;}
 
-#sprite a{
-	margin: 40px 40px 0 0;
-	display: block;
-	height: 125px; 
-	width: 175px;
-	float: left;
-	background: transparent url('images/factsprite.png') no-repeat 0 0;
-}
+#sprite a{margin: 40px 40px 0 0;display: block;height: 125px; width: 175px;float: left;background: transparent url('images/factsprite.png') no-repeat 0 0;}
 
 #sprite a.fact1:hover{background-position: 0px -125px;}
 
@@ -227,15 +219,16 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .urban-spoon-2{height: 150px;}
 
 /* our story ----------------------------------------------------------------- */
-#right_sidebar_our-story{padding: 20px 0 10px 0;}
+
+#right_sidebar_our-story{padding-bottom:10px; margin-left: 280px; border-left: 2px solid #da901f;}
+#right_sidebar_our-story p{padding-left: 25px;}
 #slideshow_still{z-index: -100; padding-bottom: 20px;}
 #sm_pic{padding-bottom: 20px;}
-.blerb1{}
-.blerb1 p{color:#d06538;font-size: 20px; font-weight: normal; font-family:'Puritan2.0BoldItalic';letter-spacing: 1px;}
-.blerb2{padding:35px 50px 25px 35px; margin-bottom: 50px; background-color:#f6e0be; }
-.blerb2 p{font-size: 28px; font-weight: normal; font-family:'Puritan2.0BoldItalic';letter-spacing: 1px;}
-#left_sidebar{margin-top: -475px;}
-
+/*sub head*/.blurb1 p{color:#d06538;font-size: 28px; font-weight: normal; font-family:'Puritan2.0BoldItalic';letter-spacing: 1px;}
+/*enat means..*/.blurb2{padding:20px 35px 10px 50px; margin-bottom: 20px; background-color:#f6e0be; }
+.blurb2 p{font-size: 22px; font-weight: normal; font-family:'Puritan2.0Bold';letter-spacing: .5px;}
+#left_sidebar{margin-top: -500px;}
+.coffee p{font-size: 16px; margin-bottom: 45px;}
 
 /* contact ----------------------------------------------------------------- */
 
