@@ -91,7 +91,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .brown-text{font-size: 16px;font-family: 'Puritan2.0Bold';color:#5A2A15;font-weight: normal;}
 .red{color:#d06538;}
 .brown{color:#5A2A15;}
-.section_title{font-size: 22px;letter-spacing: 1px;display: block;border-bottom: solid 2px;}
+.section_title{font-size: 22px;letter-spacing: 1px;display: block;border-bottom: solid 2px;padding: 7 0 0 0;}
 
 /* Header ----------------------------------------------------------------- */
 
@@ -109,10 +109,10 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #nav a{text-decoration: none;}
 
-#nav a:link{color: #FFF;opacity: .9;}
-#nav a:visited{color: #FFF;opacity: .9;}
-#nav a:hover{color: #fff;opacity: 1;} /*bolder/brighter*/
-#nav a:active{color: #fff; opacity: 1;}
+#nav a:link{color: #FFF;}
+#nav a:visited{color: #FFF;}
+#nav a:hover{color: #da901f; border-bottom: 1px dotted;} /*bolder/brighter*/
+#nav a:active{color: #da901f;}
 
 
 
@@ -160,10 +160,11 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #menu p{line-height: 1.3em;}
 #menu h4{padding: 0 0 0 0;}
 
+.menu-title{color: #5A2A15; font-size: 16;font-family:'Puritan2.0Bold';letter-spacing: 1px;}
 
 
-#about_food{height:300px; padding: 0 0 20px 0;}
-#about_food h3{padding: 0 0 5px 0;border-bottom: 2px dotted;display: block;}
+#about_food{height:300px; padding: 50 0 20 0;}
+#about_food h3{padding: 0 0 5px 0;border-bottom: 1px solid;display: block;}
 
 .about_text p{padding: 10px 0 10px 0;line-height: 1.5em;font-size: 20px;}
 .about_text{padding: 0 40px 10px 0;}
@@ -171,9 +172,9 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .food_terms{background-color: #f6e0be;padding: 0 15px 10px 20px;}
 .food_terms_text p{font-size: 16px;padding: 10px 0 0 0;}
 
-#favorites{height: 250px;padding: 50 0 150 0;}
-.favorites_header h4{color:#d06538; font-weight: normal;font-size: 24px;display: block;border-bottom:dotted 2px;}
-.favorites_pictures, .favorites_names{padding: 30 0 0 60;}
+#favorites{height: 350px;padding: 50 0 50 0;}
+.favorites_header h4{color:#d06538; font-weight: normal;font-size: 26px;display: block;border-bottom:solid 2px;padding:15 0 10 0;}
+.favorites_pictures{margin: 100 0 50 0;}
 
 .favorites_names li{display: inline;}
 .favorite_name1{padding: 0 0 0 30px;}
