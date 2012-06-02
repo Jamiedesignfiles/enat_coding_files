@@ -132,8 +132,8 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #taste h3{color: #d06538;}
 .title{margin-bottom: 10px;}
 .text_box_1{padding-right: 30px;}
-.icon{float: left;}
-.title h3{float: left;padding:0 0 0 40;color: #da901f;}
+.icon{float: left;margin: 0 0 0 20;}
+.title h3{float: left;padding:0 0 0 20;color: #da901f;}
 
 #sprite a{margin: 40px 40px 0 0;display: block;height: 125px; width: 175px;float: left;background: transparent url('images/home_page/factsprite.png') no-repeat 0 0;}
 
@@ -186,7 +186,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #food_menu li{padding: 0 0 10px 0;}
 #food_menu p, #drink_menu p{font-size: 16px;color: #5a2a15;}
-.image{height: 200px;padding-top: 65px;}
+.image{height: 200px;padding-top: 15px;}
 
 /* press ----------------------------------------------------------------- */
 
