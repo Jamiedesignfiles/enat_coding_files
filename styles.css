@@ -54,6 +54,7 @@ a:hover{cursor: pointer;}
 
 .add-bottom-margin {margin-bottom:20px;}
 
+.page_selector{border-bottom: 2px solid #da901f;}
 
 /* Layout ----------------------------------------------------------------- */
 
@@ -111,7 +112,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 #nav a:link{color: #FFF;}
 #nav a:visited{color: #FFF;}
-#nav a:hover{color: #da901f; border-bottom: 1px dotted;} /*bolder/brighter*/
+#nav a:hover{color: #da901f; border-bottom: 2px dotted;} /*bolder/brighter*/
 #nav a:active{color: #da901f;}
 
 
@@ -190,7 +191,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 /* press ----------------------------------------------------------------- */
 
-#press-main{height: 1400px; text-align: center;padding: 30 0 0 0;}
+#press-main{height: 1400px;padding: 30 0 0 0;}
 .pattern{text-align: left;}
 
 #date-logo{background-color: #d06538;text-align: center;width: 180px;float: left;}
@@ -200,10 +201,11 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 .bottom-border{border-bottom: solid 2px #debfb1;}
 
-#articles{background-color: #f2e6e1;font-size: 16px;font-family:'QuattrocentoSansRegular';font-weight: normal;text-align: left;width: 560px;float: left;}
+#articles{background-color: #f2e6e1;font-size: 16px;font-family:'QuattrocentoSansRegular';font-weight: normal;text-align: left;width: 600px;float: left;}
 #articles p{padding: 0 15 0 15;}
 
-.intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding: 60 0 0 0;}
+.intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding: 20px 0 0 0;}
+.intro-press h3{padding-top: 0px;}
 .yelp-1,.yelp-2{height: 250px;}
 .willamette{height:200px;}
 .urban-spoon-1{height: 100px;}
@@ -228,13 +230,13 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 
 /* contact ----------------------------------------------------------------- */
 
-#right_sidebar_contact{float: right; width: 300px; padding: 100px 80px 20px 0;}
+#right_sidebar_contact{float: right; width: 300px; padding: 160px 160px 20px 0;}
 
 #right_sidebar_contact h4{text-transform: uppercase;}
-#right_sidebar_contact p{font-size:16px;}
+#right_sidebar_contact p{font-size:16px; padding-bottom: 20px;}
 
-.contact_picture{padding: 40px 0 30px 80px; position: absolute;}
-.contact_title{padding: 30px 0 0 80px;}
+.contact_picture{padding: 40px 0 30px 100px; position: absolute;}
+.contact_title{padding: 30px 0 0 100px;}
 
 #contact-wrap{height:850px;}
 
