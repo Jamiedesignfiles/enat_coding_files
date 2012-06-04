@@ -66,15 +66,15 @@ body {background-color: #fbf7f6; height:100%; position:relative;}
 
 body {font-size: 100%; line-height: 1.375 ; font-family:'QuattrocentoSansRegular'; font-weight: normal;}
 
-h1 {font-size: 44px;line-height: 1em;letter-spacing: .75px; font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #FFF;}
+h1 {font-size: 44px;line-height: 1em; font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #FFF;}
 h2 {font-size: 2.125em;/*34px*/ line-height: 1.2em; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #FFF;}
-h3 {font-size: 1.75em;/*28px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #5a2a15;letter-spacing: 1.5px;}
-h4 {font-size: 1.3125em;/*18px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #DA901F;}
+h3 {font-size: 1.75em;/*28px*/ font-weight: normal; font-family:'Puritan2.0BoldItalic'; color: #5a2a15;}
+h4 {font-size: 1.3125em;/*18px*/ font-weight: normal; font-family:'Puritan2.0Bold'; color: #DA901F;}
 h5 {font-size: 16px; font-weight: normal; font-family:'QuattrocentoSansRegular'; color: #5A2A15;}
 h6 {font-weight: normal; font-size: 14px;font-family:'Puritan2.0Bold'; color: #5A2A15;}
 
 
-p {margin-bottom:.5em; font-size: 18px; font-family:'QuattrocentoSansRegular';color:#5a2a15;}
+p {margin-bottom:.5em; font-size: 18px; font-family:'QuattrocentoSansRegular'; color:#5a2a15;}
 
 ul,
 ol {margin-bottom: 0px;}
@@ -87,12 +87,15 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #footer p{font-size: 18px;font-family:'QuattrocentoSansRegular';color:#5a2a15;}
 .location_text{font-size: 16px;line-height: 1.6em;}
 
-.red-text{font-size: 20px;font-family:'Puritan2.0Bold';color:#d06538;font-weight: normal;letter-spacing: 1px;}
+.red-text{font-size: 20px;font-family:'Puritan2.0Bold';color:#d06538;font-weight: normal;}
+
 .yellow-text{font-size: 16px;font-family: 'Puritan2.0Bold';color:#da901f;font-weight: normal;}
+
 .brown-text{font-size: 16px;font-family: 'Puritan2.0Bold';color:#5A2A15;font-weight: normal;}
+
 .red{color:#d06538;}
 .brown{color:#5A2A15;}
-.section_title{font-size: 22px;letter-spacing: 1px;display: block;border-bottom: solid 2px;padding: 7 0 0 0;}
+.section_title{font-size: 22px;letter-spacing: 1px;display: block;border-bottom: solid 2px;padding: 7 0 0 0;}/*all caps. keep letter spacing*/
 
 /* Header ----------------------------------------------------------------- */
 
@@ -161,7 +164,7 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 #menu p{line-height: 1.3em;color:#5A2A15;}
 #menu h4{padding: 0 0 0 0;}
 
-.menu-title{color: #5A2A15; font-size: 16;font-family:'Puritan2.0Bold';letter-spacing: .75px;}
+.menu-title{color: #5A2A15; font-size: 16;font-family:'Puritan2.0Bold';}
 
 
 #about_food{height:320px; padding: 20 0 20 0;}
@@ -240,6 +243,8 @@ a:hover {color: #FF4F2C; text-decoration: none;}
 .contact_title{padding: 30px 0 0 100px;}
 
 #contact-wrap{height:850px;}
+
+.contact_title h1{color:#5a2a15; padding-bottom: 10px;}
 
 /* Footer ----------------------------------------------------------------- */
 #top-footer-wrapper{background-color:#debfb1; width: 100%;height: 230px;}
