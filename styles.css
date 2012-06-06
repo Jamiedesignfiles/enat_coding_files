@@ -54,7 +54,7 @@ a:hover{cursor: pointer;}
 
 .add-bottom-margin {margin-bottom:20px;}
 
-.page_selector{border-bottom: 2px solid #da901f;}
+.page_selector{border-bottom: 2px solid #da901f;color:#da901f;padding-bottom: 5px;}
 
 /* Layout ----------------------------------------------------------------- */
 
@@ -107,16 +107,16 @@ a:hover {color: #da901f; text-decoration: none;}
 
 #logo{margin-top: -15px;}
 
-#nav li{display: inline; padding:0 30px 0 0;font-size: 20px;}
+#nav li{display: inline; padding:0 30px 0 10px;font-size: 18px;}
 
 #nav{padding:60px 0 0 0; }
 
 #nav a{text-decoration: none;}
 
-#nav a:link{color: #FFF;}
-#nav a:visited{color: #FFF;}
-#nav a:hover{color: #da901f; border-bottom: 2px dotted;} /*bolder/brighter*/
-#nav a:active{color: #da901f;border-bottom: 2px dotted;}
+#nav li a:link{color: #FFF;}
+#nav li a:visited{color: #FFF;}
+#nav li a:hover{color: #da901f; border-bottom: 2px solid;padding-bottom: 5;} 
+#nav li a:active{color: #da901f;border-bottom: 2px solid;padding-bottom: 5;}
 
 
 
@@ -284,8 +284,8 @@ a:hover {color: #da901f; text-decoration: none;}
 
 #slideshow-pictures{z-index: -9999;}
 
-.callout_bar{z-index: 100; margin: -135 0 0 0;background-color:rgba(255, 255, 255,1.0);}
-.callout_bar h1{padding: 10 0 10 30;}
+.callout_bar{z-index: 100; margin: -275 0 0 20;height:180px;background-color:rgba(90, 42, 21,.4);}
+.callout_bar h1{padding: 25 25 0 25;color: #fff;}
 .callout_bar img{z-index: 100;margin: -40 0 0 5;}
 #slideshow{height: 425px;}
 .slideshow-pictures{height: 350px;padding: 0 0 50px 0;z-index: -100;}
