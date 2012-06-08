@@ -284,7 +284,7 @@ a:hover {color: #da901f; text-decoration: none;}
 
 #slideshow-pictures{z-index: -9999;}
 
-.callout_bar{z-index: 100; margin: -275 0 0 20;height:180px;background-color:rgba(90, 42, 21,.4);}
+.callout_bar{z-index: 100; margin: -250 0 0 15;opacity: .90;}
 .callout_bar h1{padding: 25 25 0 25;color: #fff;}
 .callout_bar img{z-index: 100;margin: -40 0 0 5;}
 #slideshow{height: 425px;}
