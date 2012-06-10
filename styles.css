@@ -221,34 +221,44 @@ a:hover {color: #da901f; text-decoration: none;}
 .blurb1 p{margin:50 0 50 30;font-family:'Puritan2.0Bold';color:#d06538;font-size: 26px;letter-spacing: 1px;text-align: left;}/*sub head*/
 
 #whole_left{margin-left: 30px;}
-#left_sidebar_our_story{background-color:#f7e5dd;padding:15 0 15 0;}
+#left_sidebar_our_story{background-color:#f7e5dd;padding:10 0 10 0;width: 350px;}
 
 #right_sidebar_our-story p{margin-left: 40px;margin-bottom: 20px;}
 
 #slideshow_still{z-index: -100; padding-bottom: 20px;}
 
-.blurb2{margin-top: 20px;}
-.blurb2 p{font-size: 20px; font-weight: normal; font-family:'Puritan2.0Bold';color:#ba562c;}/*enat means..*/
+.blurb2{padding-left: 40px;margin-bottom: 20px;}
+.blurb2 p{font-size: 18px; font-weight: normal; font-family:'Puritan2.0Bold';color:#ba562c;}/*enat means..*/
+.bottom-margin-small{margin-bottom: 15px;}
 
 .coffee{background-color:#f7e5dd;}
-.coffee p{padding:20 0 20 0; margin: 0 50 0 50;font-size: 16px;line-height: 1.5em;}
-.sm_pic img{padding: 30 0 0 50;}
+.coffee p{padding:10 0 15 0; margin: 0 35 0 35;font-size: 14px;line-height: 1.5em;color: #ba562c;}
+.sm_pic img{padding: 30 0 0 35;}
+
+.definition{font-size: 28px;}
+.pronounce{letter-spacing: 4px;padding-left: 15px;}
+.indent{margin-left: 30px;}
+
 
 /* contact ----------------------------------------------------------------- */
 
-#right_sidebar_contact{float: right; width: 300px; padding: 150px 140px 20px 0;}
+#contact-wrap{height:850px;}
+.contact{padding-top: 75px;}
 
-#right_sidebar_contact h4{text-transform: uppercase;}
+.contact-main-para{padding:0 0 75 0;}
+.contact_h4{font-size: 18px;letter-spacing: .75px;}
+
+.by_pcc{padding-top: 30px;width: 200px;}
+.by_pcc p i{font-size: 14px; color:#d06538;}
+.by_pcc img{margin-top: -75px;}
+
+#right_sidebar_contact{margin-top: 50px;}
 #right_sidebar_contact p{font-size:16px; padding-bottom: 20px;}
 
-.contact_picture{padding: 0 0 30px 60px; margin-top: -15px; position: absolute;}
 .contact_title{padding: 30px 0 0 60px;}
-
-#contact-wrap{height:850px;}
-
 .contact_title h1{color:#5a2a15; padding-bottom: 10px;}
-.contact_subhead{width:300px;}
 
+.stop-sign{margin:-110 0 0 180;}
 /* Footer ----------------------------------------------------------------- */
 #top-footer-wrapper{background-color:#debfb1; width: 100%;height: 230px;}
 .footer{padding: 15 0 15 0;}
