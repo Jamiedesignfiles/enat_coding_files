@@ -243,7 +243,7 @@ a:hover {color: #da901f; text-decoration: none;}
 /* contact ----------------------------------------------------------------- */
 
 #contact-wrap{height:850px;}
-.contact{padding-top: 75px;}
+.contact-main{padding-top: 75px;}
 
 .contact-main-para{padding:0 0 75 0;}
 .contact_h4{font-size: 18px;letter-spacing: .75px;}
