@@ -181,12 +181,12 @@ a:hover {color: #da901f; text-decoration: none;}
 .favorites_pictures{margin: 110 0 35 -25;}
 
 .favorites_names li{display: inline;}
-.favorite_name1{margin: 0 -10 0 0;}
-.favorite_name2{margin: 0 0 0 75px;}
-.favorite_name3{margin: 0 0 0 60px;}
-.favorite_name4{margin: 0 0 0 60px;}
-.favorite_name5{margin: 0 0 0 80px;}
-.favorite_name6{margin: 0 0 0 105px;}
+.favorite_name1{margin: 0 0 0 -10px;}
+.favorite_name2{margin: 0 0 0 95px;}
+.favorite_name3{margin: 0 0 0 110px;}
+.favorite_name4{margin: 0 0 0 90px;}
+.favorite_name5{margin: 0 0 0 60px;}
+.favorite_name6{margin: 0 0 0 85px;}
 
 #food_menu li{padding: 0 0 10px 0;color: #5A2A15;}
 #food_menu p{font-size: 16px;color: #5A2A15;}
