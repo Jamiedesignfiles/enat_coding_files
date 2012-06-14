@@ -201,7 +201,7 @@ a:hover {color: #da901f; text-decoration: none;}
 
 /* press ----------------------------------------------------------------- */
 
-#press_information{padding:50 0 50 100;}
+#press_information{margin:50 0 50 0;}
 .pattern{text-align: left;}
 
 #date-logo{background-color: #d06538;text-align: center;width: 150px;float: left;}
@@ -217,7 +217,6 @@ a:hover {color: #da901f; text-decoration: none;}
 .intro-press{margin-top: 50px;}
 .intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding:50px 0 50 0;}
 .intro-press h1{padding-bottom: 20px;}
-
 .yelp-1{height: 190px;}
 .yelp-2{height:175px;}
 .willamette{height:155px;}
