@@ -183,10 +183,10 @@ a:hover {color: #da901f; text-decoration: none;}
 
 .favorites_names li{display: inline; letter-spacing: .02em;}
 .favorite_name1{margin: 0 0 0 -15px;}
-.favorite_name2{margin: 0 0 0 90px;}
+.favorite_name2{margin: 0 0 0 95px;}
 .favorite_name3{margin: 0 0 0 115px;}
 .favorite_name4{margin: 0 0 0 85px;}
-.favorite_name5{margin: 0 0 0 55px;}
+.favorite_name5{margin: 0 0 0 65px;}
 .favorite_name6{margin: 0 0 0 85px;}
 
 #food_menu li{padding: 0 0 10px 0;color: #5A2A15;}
@@ -194,31 +194,39 @@ a:hover {color: #da901f; text-decoration: none;}
 #drink_menu li{font-size: 16px;color: #5A2A15;}
 .image{height: 200px;padding-top: 15px;}
 
+.favorites_names li a:link{color: #d06538;}
+.favorites_names li a:visited{color: #d06538;}
+.favorites_names li a:hover{color: #d06538;opacity: .6;} 
+.favorites_names li a:active{color: #d06538;}
+
 /* press ----------------------------------------------------------------- */
 
-#press-main{min-height: 1200px;padding: 30px 0 0 0;}
+#press_information{padding:50 0 50 100;}
 .pattern{text-align: left;}
 
-#date-logo{background-color: #d06538;text-align: center;width: 180px;float: left;}
-#date-logo img{padding: 25 0 0 0;}
+#date-logo{background-color: #d06538;text-align: center;width: 150px;float: left;}
+#date-logo img{padding: 15 0 0 0;}
 #date-logo div, #articles div{padding: 15 0 15 0;}
-#date-logo h6{color: #FFF; letter-spacing: .75px;}
+#date-logo h6{color: #FFF; letter-spacing: .75px;padding-top: 20px;}
 
-.bottom-border{border-bottom: solid 2px #debfb1;}
+.bottom-border{border-bottom: solid 15px #fff;}/*debfb1*/
 
-#articles{background-color: #f2e6e1;font-size: 16px; font-family:'QuattrocentoSansRegular'; font-weight: normal;text-align: left;width: 760px;float: left;}
-#articles p{padding: 20px 30px;}
+#articles{background-color: #f2e6e1;font-size: 16px; font-family:'QuattrocentoSansRegular'; font-weight: normal;text-align: left;width: 700px;float: left;}
+#articles p{font-size:16px; margin:20 35 10 35;}
 
-.intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding:20px 0 0 0;}
-.intro-press h1{padding-bottom: 10px;}
-.yelp-1{height: 250px;}
-#articles p{font-size:16px; width: 500px; margin-left: 55px;}
-.yelp-2{height: 220px;}
-.willamette{height:200px;}
+.intro-press{margin-top: 50px;}
+.intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding:50px 0 50 0;}
+.intro-press h1{padding-bottom: 20px;}
+
+.yelp-1{height: 190px;}
+.yelp-2{height:175px;}
+.willamette{height:155px;}
 .urban-spoon-1{height: 100px;}
-.urban-spoon-2{height: 150px;}
+.urban-spoon-2{height: 130px;}
+
 
 /* our story ----------------------------------------------------------------- */
+
 .our_story_main{margin-bottom: 50px;}
 .blurb1 p{margin:50px 0 50px 0;font-family:'Puritan2.0Bold';color:#d06538;font-size: 26px;letter-spacing: 1px;text-align: left;}/*sub head*/
 
@@ -230,11 +238,11 @@ a:hover {color: #da901f; text-decoration: none;}
 #slideshow_still{z-index: -100; padding-bottom: 20px;}
 
 .blurb2{padding-left: 40px;margin-bottom: 20px;}
-.blurb2 p{font-size: 18px; font-weight: normal; font-family:'Puritan2.0Bold';color:#ba562c;}/*enat means..*/
+.blurb2 p{font-size: 18px; font-weight: normal; font-family:'Puritan2.0Bold';color:#d06538;}/*enat means..*/
 .bottom-margin-small{margin-bottom: 15px;}
 
 .coffee{background-color:#F6E0BE;}
-.coffee p{padding:10 0 15 0; margin: 0 35 0 35;font-size: 14px;line-height: 1.5em;color: #ba562c;}
+.coffee p{padding:15 0 15 0; margin: 0 35 0 35;font-size: 14px;line-height: 1.5em;color: #d06538;font-family:'Puritan2.0Bold';}
 .sm_pic img{padding: 30 0 0 35;}
 
 .definition{font-size: 28px;}
@@ -245,23 +253,27 @@ a:hover {color: #da901f; text-decoration: none;}
 /* contact ----------------------------------------------------------------- */
 
 #contact-wrap{min-height:850px;}
-.contact-main{padding-top: 75px;}
+.contact-main{padding-top: 50px;}
+
+#left_info h1{margin-bottom: 40px;}
+#left_info p{font-size: 16px;padding-top:7px;}
 
 .contact-main-para{padding:0 0 75px 0;}
 .contact_h4{font-size: 18px;letter-spacing: .75px;}
 
 .by_pcc{padding-top: 30px;width: 200px;}
-.by_pcc p i{font-size: 14px; color:#d06538;}
-.by_pcc img{margin-top: -75px;}
+.by_pcc p i{font-size: 14px; color:#d06538;padding-bottom: 20px;}
+.by_pcc img{margin-top: -85px;}
 
-#right_sidebar_contact{margin-top: 50px;}
-#right_sidebar_contact p{font-size:16px; padding-bottom: 20px;}
+.right_sidebar_contact{padding-top: 55px;}
+.right_sidebar_contact p{font-size:16px; padding-bottom: 20px;}
 
-.contact_title{}
-.contact_title h1{color:#5a2a15; padding-bottom: 10px;}
+.contact_title h1{color:#5a2a15; padding-bottom: 25px;}
 .intro_text_contact{padding-left: 135px;}
-.stop-sign{margin:-110px 0 0 180px;}
+
+
 /* Footer ----------------------------------------------------------------- */
+
 #top-footer-wrapper{background-color:#debfb1; width: 100%;height: 230px;}
 .footer{padding: 15px 0 15px 0;}
 
