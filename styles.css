@@ -115,8 +115,8 @@ a:hover {color: #da901f; text-decoration: none;}
 
 #nav li a:link{color: #FFF;}
 #nav li a:visited{color: #FFF;}
-#nav li a:hover{color: #da901f; border-bottom: 2px solid;padding-bottom: 5;} 
-#nav li a:active{color: #da901f;border-bottom: 2px solid;padding-bottom: 5;}
+#nav li a:hover{color: #da901f;padding-bottom:5px;;border-bottom: solid 2px;} 
+#nav li a:active{color: #da901f;padding-bottom: 5px;}
 
 
 
@@ -158,9 +158,6 @@ a:hover {color: #da901f; text-decoration: none;}
 
 
 /* menu ----------------------------------------------------------------- */
-.nav_selector img{z-index: 100;float: left;}
-.nav_selector{z-index: 100; margin: 0 0 0 200;}
-
 #menu{height: 2200px;}
 #menu p{line-height: 1.3em;color:#5A2A15;}
 #menu h4{padding: 0 0 0 0;}
@@ -204,15 +201,17 @@ a:hover {color: #da901f; text-decoration: none;}
 #press_information{margin:50 0 50 0;}
 .pattern{text-align: left;}
 
+.sub h4{color:#d06538;}
+
 #date-logo{background-color: #d06538;text-align: center;width: 150px;float: left;}
 #date-logo img{padding: 15 0 0 0;}
 #date-logo div, #articles div{padding: 15 0 15 0;}
 #date-logo h6{color: #FFF; letter-spacing: .75px;padding-top: 20px;}
 
-.bottom-border{border-bottom: solid 15px #fff;}/*debfb1*/
+.bottom-border{border-bottom: solid 15px #fbf7f6;}/*debfb1*/
 
-#articles{background-color: #f2e6e1;font-size: 16px; font-family:'QuattrocentoSansRegular'; font-weight: normal;text-align: left;width: 700px;float: left;}
-#articles p{font-size:16px; margin:20 35 10 35;}
+#articles{background-color: #f2e6e1;font-size: 16px; font-family:'QuattrocentoSansRegular'; font-weight: normal;text-align: left;width: 750px;float: left;}
+#articles p{font-size:16px;padding: 20px;}
 
 .intro-press{margin-top: 50px;}
 .intro-press p{text-align: left;font-weight: normal;color: #833d1f;padding:50px 0 50 0;}
@@ -227,7 +226,7 @@ a:hover {color: #da901f; text-decoration: none;}
 /* our story ----------------------------------------------------------------- */
 
 .our_story_main{margin-bottom: 50px;}
-.blurb1 p{margin:50px 0 50px 0;font-family:'Puritan2.0Bold';color:#d06538;font-size: 26px;letter-spacing: 1px;text-align: left;}/*sub head*/
+.blurb1 p{margin:0 0 50px 0;font-family:'Puritan2.0Bold';color:#d06538;font-size: 26px;letter-spacing: 1px;text-align: left;}/*sub head*/
 
 #whole_left{margin-left: 30px;}
 #left_sidebar_our_story{background-color:#F6E0BE;padding:10 0 10 0;width: 350px;}
@@ -254,6 +253,11 @@ a:hover {color: #da901f; text-decoration: none;}
 #contact-wrap{min-height:850px;}
 .contact-main{padding-top: 50px;}
 
+.header-contact{margin-bottom: 20px;}
+.header-contact li{display: inline;}
+.header-contact img{margin-top: -5px;}
+
+
 #left_info h1{margin-bottom: 40px;}
 #left_info p{font-size: 16px;padding-top:7px;}
 
@@ -264,7 +268,7 @@ a:hover {color: #da901f; text-decoration: none;}
 .by_pcc p i{font-size: 14px; color:#d06538;padding-bottom: 20px;}
 .by_pcc img{margin-top: -85px;}
 
-.right_sidebar_contact{padding-top: 55px;}
+.right_sidebar_contact{margin-top: -30px;}
 .right_sidebar_contact p{font-size:16px; padding-bottom: 20px;}
 
 .contact_title h1{color:#5a2a15; padding-bottom: 25px;}
@@ -290,7 +294,7 @@ a:hover {color: #da901f; text-decoration: none;}
 
 #bottom-footer-wrapper{background-color:#5a2a15; width: 100%;height: 50px;}
 #created-by h6{color: #FFF;font-weight: normal; letter-spacing: .75px;}
-#bottom_nav{padding: 0 0 0 50px;}
+#bottom_nav{padding: 0 10 0 50px;}
 #bottom_nav li{display: inline; padding: 0 10 0 0; font-size: 16px;}
 
 #bottom_nav a:link{color: #FFF;opacity:.9;}
@@ -306,13 +310,11 @@ a:hover {color: #da901f; text-decoration: none;}
 /* index & menu slideshow ----------------------------------------------------------------- */
 
 
-#slideshow-pictures{z-index: -9999;}
+#slideshow{z-index: -9999;height: 425px;}
 
-.callout_bar{z-index: 100; margin: -250 0 0 15;opacity: .90;}
-.callout_bar h1{padding: 25 25 0 25;color: #fff;}
-.callout_bar img{z-index: 100;margin: -40 0 0 5;}
-#slideshow{height: 425px;}
-.slideshow-pictures{height: 350px;padding: 0 0 50px 0;z-index: -100;}
+.callout_bar{margin: 0 0 0 8;opacity: .90;z-index: 1000;}
+.callout_bar img{margin: -100 0 0 0;position: absolute;}
+.slideshow-pictures{height: 350px;z-index: -9999;}
 
 
 
