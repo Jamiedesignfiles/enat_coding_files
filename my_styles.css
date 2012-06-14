@@ -2,20 +2,16 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
-	body {
-		
-	}
+	body {height:100%; position:relative;}
 	
-
+}
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
 
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-		
-	}
+	body {height:100%; position:relative;}
 
 }
 
@@ -26,9 +22,13 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
 
-/*	.logo {
-		background: url(logo2x.jpg) no-repeat;
-		background-size: 212px 303px;
-	}*/
+.logo {background: url(logo2x.jpg) no-repeat;background-size: 212px 303px;}
 
+#slideshow{display: none;}
+
+#header .logo {margin: 0 auto;}
+
+.intro_picture img{display: none;}
+
+#sprite{display: none;}
 }
